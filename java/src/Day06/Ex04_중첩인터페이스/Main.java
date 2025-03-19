@@ -1,6 +1,8 @@
 package Day06.Ex04_중첩인터페이스;
 
-public class main {
+import java.util.Scanner;
+
+public class Main {
 
 	public static void main(String[] args) {
 		// 중첩 인터페이스의 아우터 클래스 객체 생성
@@ -14,6 +16,8 @@ public class main {
 		I.J j = new K();
 		j.methodA();
 		j.methodB();
-		
+	
 	}
 }
+
+ 
