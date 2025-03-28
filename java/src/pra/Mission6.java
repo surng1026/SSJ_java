@@ -1,4 +1,4 @@
-package 단축키;
+package pra;
 
 import java.util.Arrays;
 import java.util.HashSet;
