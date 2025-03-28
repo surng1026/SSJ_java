@@ -1,9 +1,9 @@
 package 단축키;
 
-public class test {
-
+public class Test {
+	
 	public static void main(String[] args) {
-		system.out.print();
-		Scanner sc = new Scanner(System.in);
+		System.out.print("테스트");
 	}
+
 }

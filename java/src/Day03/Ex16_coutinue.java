@@ -2,7 +2,7 @@ package Day03;
 
 import java.util.Scanner;
 
-public class Ex16_cooutinue {
+public class Ex16_coutinue {
 
 	public static void main(String[] args) {
 //		5개의 정수를 입력받아

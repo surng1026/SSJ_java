@@ -7,19 +7,29 @@ public class 다중Catch {
 
 		public static void main(String[] args) {
 			Scanner sc = new Scanner(System.in);
+			//입력 받고 
 			String str1 = sc.nextLine();//90
 			String str2 = sc.nextLine();//80
-			
-			
+			//변수 설정
+
+			// 배열
 			char[] char1 = str1.toCharArray(); //String ->char[]변환 "90" [9][0]
 			char[] char2 = str2.toCharArray(); //"80" [8][0]
+			
+//			String의 toCharArray() 메소드:
+			
+//			toCharArray() 메소드는 String 객체를 char[] 배열로 변환하여
+//			각 문자를 배열의 원소로 만듭니다.
+//			이를 통해 문자열 내의 각 문자를 처리할 때 더 세밀하게 다룰 수 있습니다.
+			// 이 과정을 통해서 String에 입력받은 두자리 숫자를 나눌 수 있음 ex)19 = [1] [9]
 			
 			//char1   ['9']['0']
 			//input1  ["9"]["0"]
 			String[] input1 = new String[char1.length];
 			String[] input2 = new String[char2.length];
-			//여기서 다시 값을 배열 할거야?
+			//여기서 다시 배열를 설정하고 
 			
+			//반복문을 사용
 			for (int i = 0; i < char1.length; i++) {
 				input1[i] = char1[i] + "";
 			}
@@ -33,6 +43,7 @@ public class 다중Catch {
 				System.out.println(input2[0] + input2[1]);
 				
 				int value1 = Integer.parseInt(str1);
+				//interger는 괄호 안의 자료형을 바깥의 형태로 바꿔줌
 				int value2 = Integer.parseInt(str2);
 				int result = value1 + value2;
 				System.out.println(str1 + " + " + str2 + " = " + result);

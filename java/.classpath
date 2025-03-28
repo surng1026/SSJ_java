@@ -5,6 +5,11 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="Day05/Day05/Ex06_접근지정자/|Day04/EX/|Day05/Day05/|Day09/Ex02/|Day12/Collection/List/|Day12/Collection/Map/|Day12/Collection/Queue/|Day12/Collection/set/|Day12/Compare/Comparable/|Day12/Compare/Comparator/" kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/lombok.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
